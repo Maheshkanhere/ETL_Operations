@@ -9,7 +9,7 @@ import pandas as pd
 # connecting to mysql workbench & MongoDB server (database)
 
 try:
-    connection = mysql.connect(host='localhost',database='diamonds',user='root',password='root')  #connection with MySQL
+    connection = mysql.connect(host='localhost',database='diamonds',user='root',password='****')  #connection with MySQL
     cluster = pymongo.MongoClient("mongodb://localhost:27017")     # connecting with MongoDB
 
     if connection.is_connected():
